@@ -1,0 +1,5 @@
+torch
+qiskit
+numpy
+brain-computer-interface
+decentralized-payment-network
