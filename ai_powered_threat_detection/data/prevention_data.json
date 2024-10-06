@@ -1,0 +1,20 @@
+[
+  {
+    "feature1": 0.4,
+    "feature2": 0.6,
+    "feature3": 0.0,
+    "target": 0
+  },
+  {
+    "feature1": 0.1,
+    "feature2": 0.8,
+    "feature3": 0.1,
+    "target": 1
+  },
+  {
+    "feature1": 0.7,
+    "feature2": 0.2,
+    "feature3": 0.1,
+    "target": 0
+  }
+]
