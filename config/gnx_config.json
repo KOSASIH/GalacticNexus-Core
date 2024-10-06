@@ -1,0 +1,13 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "gnx_db"
+  },
+  "security": {
+    "secret_key": "secret_key"
+  },
+  "network": {
+    "base_url": "http://localhost:3000"
+  }
+}
