@@ -1,0 +1,70 @@
+{
+  "network": {
+    "name": "Galactic Nexus",
+    "version": "1.0.0",
+    "chain_id": "GNX-1",
+    "network_id": "0x1234567890abcdef"
+  },
+  "nodes": [
+    {
+      "id": "node-1",
+      "host": "gnx-node-1.galacticnexus.io",
+      "port": 8545,
+      "protocol": "https",
+      "roles": ["validator", "archive"]
+    },
+    {
+      "id": "node-2",
+      "host": "gnx-node-2.galacticnexus.io",
+      "port": 8545,
+      "protocol": "https",
+      "roles": ["validator", "archive"]
+    },
+    {
+      "id": "node-3",
+      "host": "gnx-node-3.galacticnexus.io",
+      "port": 8545,
+      "protocol": "https",
+      "roles": ["validator", "archive"]
+    }
+  ],
+  "consensus": {
+    "algorithm": "Delegated Proof of Stake (DPoS)",
+    "block_time": 10,
+    "block_reward": 100,
+    "validator_count": 21
+  },
+  "security": {
+    "quantum_resistant_cryptography": {
+      "algorithm": "Lattice-based cryptography",
+      "key_size": 2048
+    },
+    "ai_powered_threat_detection": {
+      "model": "Neural Network",
+      "training_data": "GNX threat detection dataset"
+    }
+  },
+  "storage": {
+    "database": {
+      "type": "PostgreSQL",
+      "host": "gnx-db.galacticnexus.io",
+      "port": 5432,
+      "username": "gnx_user",
+      "password": "gnx_password"
+    },
+    "file_system": {
+      "type": "IPFS",
+      "host": "gnx-ipfs.galacticnexus.io",
+      "port": 5001
+    }
+  },
+  "messaging": {
+    "protocol": "WebSockets",
+    "host": "gnx-messaging.galacticnexus.io",
+    "port": 8080
+  },
+  "explorer": {
+    "host": "gnx-explorer.galacticnexus.io",
+    "port": 80
+  }
+}
