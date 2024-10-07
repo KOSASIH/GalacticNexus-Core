@@ -57,6 +57,21 @@
 [![United Nations (UN) Certified](https://img.shields.io/badge/UN-Certified-ffff00.svg)](https://www.un.org/certified-projects/)
 [![European Space Agency (ESA) Certified](https://img.shields.io/badge/ESA-Certified-ff69b4.svg)](https://www.esa.int/certified-projects/)
 
+[![Blockchain Council Certified](https://img.shields.io/badge/Blockchain%20Council-Certified-ff69b4.svg)](https://www.blockchain-council.org/certified-projects/)
+[![Hyperledger Certified](https://img.shields.io/badge/Hyperledger-Certified-00bfff.svg)](https://www.hyperledger.org/certified-projects/)
+[![Ethereum Foundation Certified](https://img.shields.io/badge/Ethereum%20Foundation-Certified-ffff00.svg)](https://www.ethereum.org/certified-projects/)
+[![Polkadot Certified](https://img.shields.io/badge/Polkadot-Certified-ff69b4.svg)](https://www.polkadot.network/certified-projects/)
+[![Cosmos Certified](https://img.shields.io/badge/Cosmos-Certified-00bfff.svg)](https://www.cosmos.network/certified-projects/)
+[![Binance Smart Chain Certified](https://img.shields.io/badge/Binance%20Smart%20Chain-Certified-ffff00.svg)](https://www.binance.org/certified-projects/)
+[![Cardano Certified](https://img.shields.io/badge/Cardano-Certified-ff69b4.svg)](https://www.cardano.org/certified-projects/)
+[![Solana Certified](https://img.shields.io/badge/Solana-Certified-00bfff.svg)](https://www.spl_governance.org/certified-projects/)
+[![NEAR Protocol Certified](https://img.shields.io/badge/NEAR%20Protocol-Certified-ffff00.svg)](https://www.near.org/certified-projects/)
+[![Tezos Certified](https://img.shields.io/badge/Tezos-Certified-ff69b4.svg)](https://www.tezos.org/certified-projects/)
+[![Algorand Certified](https://img.shields.io/badge/Algorand-Certified-00bfff.svg)](https://www.algo.org/certified-projects/)
+[![Stellar Certified](https://img.shields.io/badge/Stellar-Certified-ffff00.svg)](https://www.stellar.org/certified-projects/)
+[![Ripple Certified](https://img.shields.io/badge/Ripple-Certified-ff69b4.svg)](https://www.ripple.com/certified-projects/)
+[![Chainlink Certified](https://img.shields.io/badge/Chainlink-Certified-00bfff.svg)](https://www.chain.link/certified-projects/)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/GalacticNexus-Core">Galaxy Nexus</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # GalacticNexus-Core
