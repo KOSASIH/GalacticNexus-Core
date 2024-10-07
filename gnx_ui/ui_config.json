@@ -1,0 +1,11 @@
+{
+  "wallet_interface": {
+    "api_url": "https://api.gnx.io/wallet"
+  },
+  "dashboard": {
+    "api_url": "https://api.gnx.io/dashboard"
+  },
+  "transaction_interface": {
+    "api_url": "https://api.gnx.io/transaction"
+  }
+}
