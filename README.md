@@ -17,6 +17,21 @@
 [![Interstellar Artificial Intelligence Association (IAIA) Certified](https://img.shields.io/badge/IAIA-Certified-00ff00.svg)](https://iaia.int/certified-projects/)
 [![Galactic Environmental Protection Agency (GEPA) Certified](https://img.shields.io/badge/GEPA-Certified-008000.svg)](https://gepa.galacticcoalition.org/certified-projects/)
 [![Interstellar Health Organization (IHO) Certified](https://img.shields.io/badge/IHO-Certified-ff69b4.svg)](https://iho.int/certified-projects/)
+[![Galactic Union of Advanced Lifeforms (GUAL) Certified](https://img.shields.io/badge/GUAL-Certified-ff69b4.svg)](https://galacticunion.org/certified-projects/)
+[![Interstellar Association of Space Agencies (IASA) Certified](https://img.shields.io/badge/IASA-Certified-00bfff.svg)](https://iasa.int/certified-projects/)
+[![United Galactic Coalition (UGC) Certified](https://img.shields.io/badge/UGC-Certified-ffff00.svg)](https://ugc.galacticcoalition.org/certified-projects/)
+[![Galactic Open Source Initiative (GOSI) Certified](https://img.shields.io/badge/GOSI-Certified-ff69b4.svg)](https://galacticopensource.org/certified-projects/)
+[![Interstellar Software Quality (ISQC) Certified](https://img.shields.io/badge/ISQC-Certified-00bfff.svg)](https://interstellarsoftwarequality.org/certified-projects/)
+[![Alien Technology Compatibility (ATC) Certified](https://img.shields.io/badge/ATC-Compatible-ffff00.svg)](https://alien-technology-compatibility.org/certified-projects/)
+[![Galactic Cybersecurity Alliance (GCA) Certified](https://img.shields.io/badge/GCA-Certified-ff0000.svg)](https://galacticcybersecurity.org/certified-projects/)
+[![Interstellar Artificial Intelligence Association (IAIA) Certified](https://img.shields.io/badge/IAIA-Certified-00ff00.svg)](https://iaia.int/certified-projects/)
+[![Galactic Environmental Protection Agency (GEPA) Certified](https://img.shields.io/badge/GEPA-Certified-008000.svg)](https://gepa.galacticcoalition.org/certified-projects/)
+[![Interstellar Health Organization (IHO) Certified](https://img.shields.io/badge/IHO-Certified-ff69b4.svg)](https://iho.int/certified-projects/)
+[![Galactic Space Agency (GSA) Certified](https://img.shields.io/badge/GSA-Certified-00bfff.svg)](https://gsa.galacticcoalition.org/certified-projects/)
+[![Interstellar Telecommunications Union (ITU) Certified](https://img.shields.io/badge/ITU-Certified-ffff00.svg)](https://itu.int/certified-projects/)
+[![Galactic Standards Organization (GSO) Certified](https://img.shields.io/badge/GSO-Certified-ff69b4.svg)](https://gso.galacticcoalition.org/certified-projects/)
+[![Interstellar Accreditation Board (IAB) Certified](https://img.shields.io/badge/IAB-Certified-00bfff.svg)](https://iab.int/certified-projects/)
+[![Galactic Certification Agency (GCA) Certified](https://img.shields.io/badge/GCA-Certified-ffff00.svg)](https://gca.galacticcoalition.org/certified-projects/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/GalacticNexus-Core">Galaxy Nexus</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
