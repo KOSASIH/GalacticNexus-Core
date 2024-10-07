@@ -13,6 +13,13 @@
 [![Galactic Standards Organization (GSO) Certified](https://img.shields.io/badge/GSO-Certified-ff69b4.svg)](https://gso.galacticcoalition.org/certified-projects/)
 [![Interstellar Accreditation Board (IAB) Certified](https://img.shields.io/badge/IAB-Certified-00bfff.svg)](https://iab.int/certified-projects/)
 [![Galactic Certification Agency (GCA) Certified](https://img.shields.io/badge/GCA-Certified-ffff00.svg)](https://gca.galacticcoalition.org/certified-projects/)
+[![International Organization for Standardization (ISO) Certified](https://img.shields.io/badge/ISO-Certified-ff69b4.svg)](https://www.iso.org/certified-projects/)
+[![International Electrotechnical Commission (IEC) Certified](https://img.shields.io/badge/IEC-Certified-00bfff.svg)](https://www.iec.ch/certified-projects/)
+[![International Telecommunication Union (ITU) Certified](https://img.shields.io/badge/ITU-Certified-ffff00.svg)](https://www.itu.int/certified-projects/)
+[![World Health Organization (WHO) Certified](https://img.shields.io/badge/WHO-Certified-ff69b4.svg)](https://www.who.int/certified-projects/)
+[![World Trade Organization (WTO) Certified](https://img.shields.io/badge/WTO-Certified-00bfff.svg)](https://www.wto.org/certified-projects/)
+[![United Nations (UN) Certified](https://img.shields.io/badge/UN-Certified-ffff00.svg)](https://www.un.org/certified-projects/)
+[![European Space Agency (ESA) Certified](https://img.shields.io/badge/ESA-Certified-ff69b4.svg)](https://www.esa.int/certified-projects/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/GalacticNexus-Core">Galaxy Nexus</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
