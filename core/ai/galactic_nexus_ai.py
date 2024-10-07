@@ -4,11 +4,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from keras.models import Model
-from keras.layers import Input, Dense, Dropout, concatenate
+from keras.layers import Input, Dense, Dropout, concatenate, LSTM, Conv2D, MaxPooling2D
 from keras.optimizers import Adam
 from keras.regularizers import l1_l2
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from galactic_nexus_utils import *
+from galactic_nexus_explainability import *
 
 class GalacticNexusAI:
     def __init__(self, config):
@@ -28,11 +29,15 @@ class GalacticNexusAI:
 
         # Image Encoder
         image_encoder = Conv2D(32, (3, 3), activation='relu', input_shape=(self.config['image_size'], self.config['image_size'], 3))
-        image_output = image_encoder(image_input)
+        image_encoder = MaxPooling2D((2, 2))(image_encoder)
+        image_encoder = Conv2D(64, (3, 3), activation='relu')(image_encoder)
+        image_encoder = MaxPooling2D((2, 2))(image_encoder)
+        image_output = Flatten()(image_encoder)
 
         # Audio Encoder
         audio_encoder = LSTM(128, return_sequences=True, input_shape=(self.config['audio_length'],))
-        audio_output = audio_encoder(audio_input)
+        audio_encoder = LSTM(64, return_sequences=False)(audio_encoder)
+        audio_output = Dense(128, activation='relu')(audio_encoder)
 
         # Fusion Layer
         fusion_output = concatenate([text_output, image_output, audio_output])
@@ -75,3 +80,9 @@ class GalacticNexusAI:
         explainer = shap.KernelExplainer(self.model.predict, X_explain)
         shap_values = explainer.shap_values(X_explain)
         return shap_values
+
+    def generate_explanation_report(self, X_explain, y_explain):
+        # Generate Explanation Report using LIME
+        explainer = lime.lime_tabular.LimeTabularExplainer(X_explain, feature_names=self.config['feature_names'], class_names=self.config['class_names'])
+        explanation = explainer.explain_instance(X_explain, y_explain, num_features=5)
+        return explanation
