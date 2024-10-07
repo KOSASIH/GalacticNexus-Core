@@ -1,0 +1,36 @@
+{
+  "blockchain_agnostic_architecture": {
+    "ethereum": {
+      "rpc_url": "https://mainnet.infura.io/v3/YOUR_PROJECT_ID",
+      "chain_id": 1,
+      "currency_symbol": "ETH"
+    },
+    "bitcoin": {
+      "rpc_url": "https://api.blockcypher.com/v1/btc/main",
+      "chain_id": 1,
+      "currency_symbol": "BTC"
+    }
+  },
+  "cross_chain_atomic_swaps": {
+    "ethereum": {
+      "token_address": "0x1234567890abcdef",
+      "amount": 10
+    },
+    "bitcoin": {
+      "token_address": "bc1q1234567890abcdef",
+      "amount": 10
+    }
+  },
+  "interoperability_protocols": {
+    "cosmos_ibc": {
+ "protocol_name": "Cosmos Inter-Blockchain Communication",
+      "protocol_version": "1.0",
+      "protocol_description": "A protocol for enabling communication and interaction between different blockchain networks."
+    },
+    "polkadot_xcm": {
+      "protocol_name": "Polkadot Cross-Chain Messaging",
+      "protocol_version": "1.0",
+      "protocol_description": "A protocol for enabling communication and interaction between different blockchain networks."
+    }
+  }
+}
