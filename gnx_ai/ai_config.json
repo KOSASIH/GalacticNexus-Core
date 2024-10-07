@@ -1,0 +1,15 @@
+{
+  "predictive_analytics": {
+    "model_type": "neural_network",
+    "training_data": "traffic_data.csv"
+  },
+  "machine_learning": {
+    "model_type": "neural_network",
+    "training_data": "ml_data.csv"
+  },
+  "natural_language_processing": {
+    "language": "English",
+    "stemmer": "porter",
+    "sentiment_analyzer": "afinn"
+  }
+}
