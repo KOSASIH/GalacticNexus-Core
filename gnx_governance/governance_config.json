@@ -1,0 +1,14 @@
+{
+  "decentralized_autonomous_organization": {
+    "token_address": "0x1234567890abcdef",
+    "governance_address": "0x9876543210fedcba"
+  },
+  "voting_mechanisms": {
+    "token_address": "0x1234567890abcdef",
+    "governance_address": "0x9876543210fedcba"
+  },
+  "proposal_system": {
+    "token_address": "0x1234567890abcdef",
+    "governance_address": "0x9876543210fedcba"
+  }
+}
