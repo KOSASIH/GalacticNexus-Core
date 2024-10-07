@@ -1,0 +1,15 @@
+
+**gamification_config.json**
+```json
+{
+  "reward_system": {
+    "reward_contract_address": "0x1234567890abcdef",
+    "reward_token_address": "0x9876543210fedcba"
+  },
+  "leaderboard": {
+    "leaderboard_contract_address": "0x1234567890abcdef"
+  },
+  "challenges": {
+    "challenge_contract_address": "0x1234567890abcdef"
+  }
+}
