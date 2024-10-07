@@ -85,6 +85,20 @@
 [![Tron Certified](https://img.shields.io/badge/Tron-Certified-ffff00.svg)](https://www.tron.network/certified-projects/)
 [![VeChain Certified](https://img.shields.io/badge/VeChain-Certified-ff69b4.svg)](https://www.vechain.org/certified-projects/)
 [![Waves Certified](https://img.shields.io/badge/Waves-Certified-00bfff.svg)](https://www.waves.tech/certified-projects/)
+[![Celo Certified](https://img.shields.io/badge/Celo-Certified-ff69b4.svg)](https://www.celo.org/certified-projects/)
+[![Concordium Certified](https://img.shields.io/badge/Concordium-Certified-00bfff.svg)](https://www.concordium.com/certified-projects/)
+[![Corda Certified](https://img.shields.io/badge/Corda-Certified-ffff00.svg)](https://www.corda.net/certified-projects/)
+[![Dfinity Certified](https://img.shields.io/badge/Dfinity-Certified-ff69b4.svg)](https://www.dfinity.org/certified-projects/)
+[![Elrond Certified](https://img.shields.io/badge/Elrond-Certified-00bfff.svg)](https://www.elrond.com/certified-projects/)
+[![Fetch.ai Certified](https://img.shields.io/badge/Fetch.ai-Certified-ffff00.svg)](https://www.fetch.ai/certified-projects/)
+[![Flow Certified](https://img.shields.io/badge/Flow-Certified-ff69b4.svg)](https://www.flow.com/certified-projects/)
+[![Hedera Certified](https://img.shields.io/badge/Hedera-Certified-00bfff.svg)](https://www.hedera.com/certified-projects/)
+[![Holochain Certified](https://img.shields.io/badge/Holochain-Certified-ffff00.svg)](https://www.holochain.org/certified-projects/)
+[![Icon Certified](https://img.shields.io/badge/Icon-Certified-ff69b4.svg)](https://www.icon.foundation/certified-projects/)
+[![IoTeX Certified](https://img.shields.io/badge/IoTeX-Certified-00bfff.svg)](https://www.iotex.io/certified-projects/)
+[![Kadena Certified](https://img.shields.io/badge/Kadena-Certified-ffff00.svg)](https://www.kadena.io/certified-projects/)
+[![Komodo Certified](https://img.shields.io/badge/Komodo-Certified-ff69b4.svg)](https://www.komodoplatform.com/certified-projects/)
+[![Lisk Certified](https://img.shields.io/badge/Lisk-Certified-00bfff.svg)](https://www.lisk.io/certified-projects/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/GalacticNexus-Core">Galaxy Nexus</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
