@@ -1,0 +1,8 @@
+{
+  "ID": "BTC-USD",
+  "Name": "Bitcoin-US Dollar",
+  "BaseAsset": "BTC",
+  "QuoteAsset": "USD",
+  "Price": 10000.00,
+  "Volume": 1000.00
+}
