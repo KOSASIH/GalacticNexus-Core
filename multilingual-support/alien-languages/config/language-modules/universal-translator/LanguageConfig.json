@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "languages": {
+    "GalacticStandard": {
+      "code": "GS",
+      "name": "Galactic Standard",
+      "type": "agglutinative",
+      "script": "GalacticAlphabet",
+      "grammar": {
+        "wordOrder": "SVO",
+        "tense": ["present", "past", "future"],
+        "aspect": ["simple", "progressive", "perfect"],
+        "mood": ["indicative", "imperative", "subjunctive"],
+        "case": ["nominative", "accusative", "genitive", "dative", "ablative"]
+      },
+      "vocabulary": {
+        "roots": ["kor-", "zha-", "nir-"],
+        "prefixes": ["re-", "de-", "ex-"],
+        "suffixes": ["-tion", "-ment", "-ly"]
+      },
+      "phonology": {
+        "consonants": ["p", "t", "k", "m", "n", "ŋ", "f", "v", "s", "h", "j", "w"],
+        "vowels": ["i", "e", "a", "o", "u", "ɪ", "ʊ", "ɛ", "ɔ"],
+        "diphthongs": ["ai", "au", "oi", "ou", "ei", "eu"]
+      },
+      "semantics": {
+        "entities": ["person", "place", "thing", "idea"],
+        "actions": ["move", "eat", "think", "feel"],
+        "attributes": ["big", "small", "happy", "sad"]
+      }
+    },
+    "Zlorgonian": {
+      "code": "ZL",
+      "name": "Zlorgonian",
+      "type": "polysynthetic",
+      "script": "ZlorgonianGlyphs",
+      "grammar": {
+        "wordOrder": "SOV",
+        "tense": ["present", "past", "future"],
+        "aspect": ["simple", "progressive", "perfect"],
+        "mood": ["indicative", "imperative", "subjunctive"],
+        "case": ["nominative", "accusative", "genitive", "dative", "ablative", "locative"]
+      },
+      "vocabulary": {
+        "roots": ["zl-", "kr-", "th-"],
+        "prefixes": ["za-", "ku-", "te-"],
+        "suffixes": ["-zha", "-kra", "-tha"]
+      },
+      "phonology": {
+        "consonants": ["p", "t", "k", "m", "n", "ŋ", "f", "v", "s", "h", "j", "w", "x", "ʔ"],
+        "vowels": ["i", "e", "a", "o", "u", "ɪ", "ʊ", "ɛ", "ɔ", "ʌ"],
+        "diphthongs": ["ai", "au", "oi", "ou", "ei", "eu", "ia", "ua"]
+      },
+      "semantics": {
+        "entities": ["person", "place", "thing", "idea", "energy"],
+        "actions": ["move", "eat", "think", "feel", "transmute"],
+        "attributes": ["big", "small", "happy", "sad", "resonant"]
+      }
+    },
+    "N'Tari": {
+      "code": "NT",
+      "name": "N'Tari",
+      "type": "tonal",
+      "script": "N'TariLogograms",
+      "grammar": {
+        "wordOrder": "VSO",
+        "tense": ["present", "past", "future"],
+        "aspect": ["simple", "progressive", "perfect"],
+        "mood": ["indicative", "imperative", "subjunctive"],
+        "case": ["nominative", "accusative", "genitive", "dative", "ablative", "locative", "instrumental"]
+      },
+      "vocabulary": {
+        "roots": ["n'-", "t'-", "r'-"],
+        "prefixes": ["na-", "ta-", "re-"],
+        "suffixes": ["-n'a", "-t'a", "-r'a"]
+      },
+      "phonology": {
+        "consonants": ["p", "t", "k", "m", "n", "ŋ", "f", "v ", "s", "h", "j", "w", "x", "ʔ", "ʃ"],
+        "vowels": ["i", "e", "a", "o", "u", "ɪ", "ʊ", "ɛ", "ɔ", "ʌ", "ɑ"],
+        "diphthongs": ["ai", "au", "oi", "ou", "ei", "eu", "ia", "ua", "ie", "uo"]
+      },
+      "semantics": {
+        "entities": ["person", "place", "thing", "idea", "energy", "pattern"],
+        "actions": ["move", "eat", "think", "feel", "transmute", "resonate"],
+        "attributes": ["big", "small", "happy", "sad", "resonant", "harmonic"]
+      }
+    }
+  }
+}
