@@ -1,0 +1,22 @@
+{
+  "name": "galacticnexus",
+  "version": "1.0.0",
+  "description": "Intergalactic Commerce: A platform that facilitates seamless transactions and commerce between different planetary systems and civilizations.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "KOSASIH",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.18",
+    "crypto": "^1.0.1",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
