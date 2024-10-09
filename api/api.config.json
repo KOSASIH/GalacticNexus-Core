@@ -1,0 +1,10 @@
+{
+  "DataDir": "/path/to/data/dir",
+  "NetworkId": 1,
+  "Genesis": "/path/to/genesis.json",
+  "Validators": [
+    "/path/to/validator1.json",
+    "/path/to/validator2.json"
+  ],
+  "MaxPeers": 10
+}
