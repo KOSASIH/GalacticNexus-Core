@@ -1,0 +1,59 @@
+{
+  "DataDir": "/path/to/data/dir",
+  "NetworkId": 12345,
+  "Genesis": {
+    "Config": {
+      "ChainId": 12345,
+      "HomesteadBlock": 0,
+      "EIP150Block": 0,
+      "EIP155Block": 0,
+      "EIP158Block": 0
+    },
+    "Alloc": {
+      "0x742d35Cc6634C0532925a3b844Bc454e4438f44e": {
+        "balance": "1000000000000000000000"
+      }
+    },
+    "Coinbase": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    "Difficulty": "0x4000000000000000000000000000000000000000000000000000000000000000",
+    "ExtraData": "0x",
+    "GasLimit": "0x7fffffffffffffff",
+    "MixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "Nonce": "0x0000000000000000",
+    "Number": "0x0",
+    "ParentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "ReceiptsRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "StateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "Timestamp": "0x0",
+    "TransactionsRoot": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "Validators": [
+    "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"
+  ],
+  "MaxPeers": 10,
+  "TxPoolConfig": {
+    "Locals": 10,
+    "NoLocals": 10,
+    "Journal": "/path/to/journal/file",
+    "Rejournal": 3600000000000,
+    "PriceLimit": 1000000000,
+    "PriceBump": 10,
+    "AccountSlots": 16,
+    "GlobalSlots": 4096,
+    "AccountQueue": 64,
+    "GlobalQueue": 1024,
+    "Lifetime": 300000000000
+  },
+  "MinerConfig": {
+    "GasFloor": 1000000,
+    "GasCeil": 100000000,
+    "GasPrice": 1000000000,
+    "MinGasPrice": 1000000000,
+    "MaxGasPrice": 100000000000,
+    "MinerThreads": 1,
+    "MinerInterval": 1000000000,
+    "MinerExtraData": "0x",
+    "MinerGasLimit": 1000000,
+    "MinerGasPrice": 1000000000
+  }
+}
