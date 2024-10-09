@@ -1,0 +1,69 @@
+-- LanguageDatabase.db
+
+-- Create tables for language data
+CREATE TABLE Languages (
+  LanguageID INTEGER PRIMARY KEY,
+  Code VARCHAR(3) NOT NULL,
+  Name VARCHAR(50) NOT NULL,
+  Type VARCHAR(20) NOT NULL,  -- e.g. agglutinative, polysynthetic, tonal
+  Script VARCHAR(20) NOT NULL  -- e.g. GalacticAlphabet, ZlorgonianGlyphs
+);
+
+CREATE TABLE Grammar (
+  GrammarID INTEGER PRIMARY KEY,
+  LanguageID INTEGER NOT NULL,
+  WordOrder VARCHAR(10) NOT NULL,  -- e.g. SVO, SOV, VSO
+  Tense VARCHAR(20) NOT NULL,  -- e.g. present, past, future
+  Aspect VARCHAR(20) NOT NULL,  -- e.g. simple, progressive, perfect
+  Mood VARCHAR(20) NOT NULL,  -- e.g. indicative, imperative, subjunctive
+  Case VARCHAR(20) NOT NULL,  -- e.g. nominative, accusative, genitive
+  FOREIGN KEY (LanguageID) REFERENCES Languages(LanguageID)
+);
+
+CREATE TABLE Vocabulary (
+  VocabularyID INTEGER PRIMARY KEY,
+  LanguageID INTEGER NOT NULL,
+  Root VARCHAR(20) NOT NULL,  -- e.g. kor-, zha-, nir-
+  Prefix VARCHAR(20) NOT NULL,  -- e.g. re-, de-, ex-
+  Suffix VARCHAR(20) NOT NULL,  -- e.g. -tion, -ment, -ly
+  FOREIGN KEY (LanguageID) REFERENCES Languages(LanguageID)
+);
+
+CREATE TABLE Phonology (
+  PhonologyID INTEGER PRIMARY KEY,
+  LanguageID INTEGER NOT NULL,
+  Consonant VARCHAR(20) NOT NULL,  -- e.g. p, t, k, m, n, ŋ
+  Vowel VARCHAR(20) NOT NULL,  -- e.g. i, e, a, o, u
+  Diphthong VARCHAR(20) NOT NULL,  -- e.g. ai, au, oi, ou
+  FOREIGN KEY (LanguageID) REFERENCES Languages(LanguageID)
+);
+
+CREATE TABLE Semantics (
+  SemanticsID INTEGER PRIMARY KEY,
+  LanguageID INTEGER NOT NULL,
+  Entity VARCHAR(20) NOT NULL,  -- e.g. person, place, thing, idea
+  Action VARCHAR(20) NOT NULL,  -- e.g. move, eat, think, feel
+  Attribute VARCHAR(20) NOT NULL,  -- e.g. big, small, happy, sad
+  FOREIGN KEY (LanguageID) REFERENCES Languages(LanguageID)
+);
+
+-- Insert data for Galactic Standard
+INSERT INTO Languages (Code, Name, Type, Script) VALUES ('GS', 'Galactic Standard', 'agglutinative', 'GalacticAlphabet');
+INSERT INTO Grammar (LanguageID, WordOrder, Tense, Aspect, Mood, Case) VALUES (1, 'SVO', 'present, past, future', 'simple, progressive, perfect', 'indicative, imperative, subjunctive', 'nominative, accusative, genitive');
+INSERT INTO Vocabulary (LanguageID, Root, Prefix, Suffix) VALUES (1, 'kor-', 're-', '-tion');
+INSERT INTO Phonology (LanguageID, Consonant, Vowel, Diphthong) VALUES (1, 'p, t, k, m, n, ŋ', 'i, e, a, o, u', 'ai, au, oi, ou');
+INSERT INTO Semantics (LanguageID, Entity, Action, Attribute) VALUES (1, 'person, place, thing, idea', 'move, eat, think, feel', 'big, small, happy, sad');
+
+-- Insert data for Zlorgonian
+INSERT INTO Languages (Code, Name, Type, Script) VALUES ('ZL', 'Zlorgonian', 'polysynthetic', 'ZlorgonianGlyphs');
+INSERT INTO Grammar (LanguageID, WordOrder, Tense, Aspect, Mood, Case) VALUES (2, 'SOV', 'present, past, future', 'simple, progressive, perfect', 'indicative, imperative, subjunctive', 'nominative, accusative, genitive, dative, ablative');
+INSERT INTO Vocabulary (LanguageID, Root, Prefix, Suffix) VALUES (2, 'zl-', 'za-', '-zha');
+INSERT INTO Phonology (LanguageID, Consonant, Vowel, Diphthong) VALUES (2, 'p, t, k, m, n, ŋ, f, v, s, h, j, w, x, ʔ', 'i, e, a, o, u, ɪ, ʊ, ɛ, ɔ', 'ai, au , oi, ou, ei, eu');
+INSERT INTO Semantics (LanguageID, Entity, Action, Attribute) VALUES (2, 'person, place, thing, idea, energy', 'move, eat, think, feel, transmute', 'big, small, happy, sad, resonant');
+
+-- Insert data for N'Tari
+INSERT INTO Languages (Code, Name, Type, Script) VALUES ('NT', 'N''Tari', 'tonal', 'N''TariLogograms');
+INSERT INTO Grammar (LanguageID, WordOrder, Tense, Aspect, Mood, Case) VALUES (3, 'VSO', 'present, past, future', 'simple, progressive, perfect', 'indicative, imperative, subjunctive', 'nominative, accusative, genitive, dative, ablative, locative, instrumental');
+INSERT INTO Vocabulary (LanguageID, Root, Prefix, Suffix) VALUES (3, 'n''-', 'na-', '-n''a');
+INSERT INTO Phonology (LanguageID, Consonant, Vowel, Diphthong) VALUES (3, 'p, t, k, m, n, ŋ, f, v, s, h, j, w, x, ʔ, ʃ', 'i, e, a, o, u, ɪ, ʊ, ɛ, ɔ, ʌ, ɑ', 'ai, au, oi, ou, ei, eu, ia, ua');
+INSERT INTO Semantics (LanguageID, Entity, Action, Attribute) VALUES (3, 'person, place, thing, idea, energy, pattern', 'move, eat, think, feel, transmute, resonate', 'big, small, happy, sad, resonant, harmonic');
