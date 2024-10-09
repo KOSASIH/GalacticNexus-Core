@@ -1,0 +1,24 @@
+{
+  "quantum_computing": {
+    "provider": "IBM Quantum",
+    "api_key": "1234567890abcdef",
+    "api_url": "https://api.quantum-computing.ibm.com",
+    "backend": "ibmq_qasm_simulator",
+    "shots": 1024,
+    "optimization_level": 3
+  },
+  "algorithms": [
+    {
+      "name": "Shor's Algorithm",
+      "description": "Factorization of large numbers",
+      "qubits": 5,
+      "gates": ["h", "cx", "u1", "u2", "u3"]
+    },
+    {
+      "name": "Grover's Algorithm",
+      "description": "Search in an unsorted database",
+      "qubits": 3,
+      "gates": ["h", "cx", "u1", "u2", "u3"]
+    }
+  ]
+}
