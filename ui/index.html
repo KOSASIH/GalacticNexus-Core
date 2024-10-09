@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GalacticNexus Testnet Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#testnet">Testnet</a></li>
+        <li><a href="#miner">Miner</a></li>
+        <li><a href="#contracts">Contracts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Welcome to GalacticNexus Testnet Interface</h1>
+      <p>This interface allows you to interact with the GalacticNexus testnet.</p>
+    </section>
+    <section id="testnet">
+      <h1>Testnet Status</h1>
+      <p>Block number: <span id="block-number">0</span></p>
+      <p>Block hash: <span id="block-hash">0x0000000000000000000000000000000000000000000000000000000000000000</span></p>
+      <button id="get-block-button">Get Block</button>
+    </section>
+    <section id="miner">
+      <h1>Miner Status</h1>
+      <p>Miner threads: <span id="miner-threads">1</span></p>
+      <p>Miner interval: <span id="miner-interval">1000000000</span></p>
+      <button id="start-miner-button">Start Miner</button>
+      <button id="stop-miner-button">Stop Miner</button>
+    </section>
+    <section id="contracts">
+      <h1>Contracts</h1>
+      <ul id="contract-list">
+        <li>Contract 1</li>
+        <li>Contract 2</li>
+        <li>Contract 3</li>
+      </ul>
+      <button id="deploy-contract-button">Deploy Contract</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
