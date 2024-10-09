@@ -1,0 +1,19 @@
+{
+  "galactic_agencies": [
+    {
+      "id": "GALACTIC_SPACE_EXPLORATION_AGENCY",
+      "name": "Galactic Space Exploration Agency",
+      "description": "A space agency focused on exploring the unknown regions of the galaxy.",
+      "logo": "https://example.com/gsea_logo.png",
+      "website": "https://gsea.galaxy"
+    },
+    {
+      "id": "GALACTIC_RESEARCH_INSTITUTE",
+      "name": "Galactic Research Institute",
+      "description": "A research institution dedicated to advancing our understanding of the galaxy.",
+      "logo": "https://example.com/gri_logo.png",
+      "website": "https://gri.galaxy"
+    },
+    ...
+  ]
+}
