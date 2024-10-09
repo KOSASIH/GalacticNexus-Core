@@ -1,0 +1,26 @@
+{
+  "database": {
+    "username": "galactic_admin",
+    "password": "password123",
+    "host": "galactic_market_db",
+    "port": 5432,
+    "database": "galactic_market_data"
+  },
+  "models": {
+    "market_trends_model": {
+      "type": "LSTM",
+      "input_shape": [100, 10],
+      "output_shape": [1]
+    },
+    "sentiment_analysis_model": {
+      "type": "BERT",
+      "input_shape": [100, 10],
+      "output_shape": [1]
+    },
+    "predictive_model": {
+      "type": "GRU",
+      "input_shape": [100, 10],
+      "output_shape": [1]
+    }
+  }
+}
