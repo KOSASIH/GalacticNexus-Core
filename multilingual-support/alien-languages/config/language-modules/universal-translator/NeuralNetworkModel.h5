@@ -1,0 +1,43 @@
+# Import necessary libraries
+import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense, LSTM, Embedding
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
+
+# Define the neural network architecture
+model = Sequential()
+model.add(Embedding(input_dim=10000, output_dim=128, input_length=max_length))
+model.add(LSTM(64, dropout=0.2, recurrent_dropout=0.2))
+model.add(Dense(64, activation='relu'))
+model.add(Dense(8, activation='softmax'))
+
+# Compile the model
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# Load the pre-trained weights
+model.load_weights('NeuralNetworkModel_weights.h5')
+
+# Define the tokenizer
+tokenizer = Tokenizer(num_words=10000)
+tokenizer.fit_on_texts(train_texts)
+
+# Define the sequence padding
+max_length = 100
+padded_sequences = pad_sequences(sequences, maxlen=max_length)
+
+# Define the training data
+train_sequences = padded_sequences[:8000]
+train_labels = np.array(train_labels)[:8000]
+
+# Define the validation data
+val_sequences = padded_sequences[8000:10000]
+val_labels = np.array(train_labels)[8000:10000]
+
+# Train the model
+model.fit(train_sequences, train_labels, epochs=10, 
+          validation_data=(val_sequences, val_labels), 
+          verbose=2)
+
+# Save the model
+model.save('NeuralNetworkModel.h5')
