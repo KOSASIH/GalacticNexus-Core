@@ -1,0 +1,11 @@
+{
+  "Bitcoin": {
+    "RPCServer": "http://localhost:8332",
+    "Network": "mainnet",
+    "AccountsDir": "/path/to/accounts/dir"
+  },
+  "Ethereum": {
+    "RPCServer": "http://localhost:8545",
+    "AccountsDir": "/path/to/accounts/dir"
+  }
+}
