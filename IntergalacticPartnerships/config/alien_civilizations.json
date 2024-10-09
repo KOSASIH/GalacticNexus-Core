@@ -1,0 +1,19 @@
+{
+  "alien_civilizations": [
+    {
+      "id": "ZORVATHIANS",
+      "name": "Zorvathians",
+      "description": "A highly advanced, peaceful civilization from the Andromeda galaxy.",
+      "logo": "https://example.com/zorvathians_logo.png",
+      "website": "https://zorvathians.galaxy"
+    },
+    {
+      "id": "KRAKKORIANS",
+      "name": "Krakkorians",
+      "description": "A technologically advanced, nomadic civilization from the Orion Nebula.",
+      "logo": "https://example.com/krakkorians_logo.png",
+      "website": "https://krakkorians.galaxy"
+    },
+    ...
+  ]
+}
