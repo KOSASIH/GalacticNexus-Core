@@ -1,0 +1,11 @@
+{
+  "ethereum": {
+    "api_url": "https://api.ethereum.com",
+    "api_key": "1234567890abcdef"
+  },
+  "polkadot": {
+    "api_url": "https://api.polkadot.com",
+    "api_key": "fedcba9876543210"
+  },
+  ...
+}
