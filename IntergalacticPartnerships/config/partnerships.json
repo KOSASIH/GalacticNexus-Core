@@ -1,0 +1,19 @@
+{
+  "partnerships": [
+    {
+      "id": "GALACTIC_UNION",
+      "name": "Galactic Union of Advanced Lifeforms",
+      "description": "A coalition of advanced civilizations working together for the betterment of the galaxy.",
+      "logo": "https://example.com/galactic_union_logo.png",
+      "website": "https://galacticunion.org"
+    },
+    {
+      "id": "INTERGALACTIC_SPACE_AGENCY",
+      "name": "Intergalactic Space Agency",
+      "description": "A space agency dedicated to exploring and understanding the galaxy.",
+      "logo": "https://example.com/isa_logo.png",
+      "website": "https://isa.galaxy"
+    },
+    ...
+  ]
+}
