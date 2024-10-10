@@ -1,0 +1,126 @@
+{
+  "apiUrl": "https://api.intergalacticpaymentgateway.com",
+  "apiKey": "IGPG-1234567890",
+  "apiSecret": "secret-key-1234567890",
+  "currencies": [
+    {
+      "id": "GALACTIC_CREDITS",
+      "name": "Galactic Credits",
+      "symbol": "GC",
+      "exchangeRate": 1.0,
+      "decimalPlaces": 2,
+      "enabled": true
+    },
+    {
+      "id": "EARTH_DOLLARS",
+      "name": "Earth Dollars",
+      "symbol": "ED",
+      "exchangeRate": 0.8,
+      "decimalPlaces": 2,
+      "enabled": true
+    },
+    {
+      "id": "MARS_COINS",
+      "name": "Mars Coins",
+      "symbol": "MC",
+      "exchangeRate": 1.2,
+      "decimalPlaces": 2,
+      "enabled": true
+    }
+  ],
+  "financialInstitutions": [
+    {
+      "id": "GALACTIC_BANK",
+      "name": "Galactic Bank",
+      "apiKey": "GB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "MILKY_WAY",
+      "enabled": true
+    },
+    {
+      "id": "EARTH_BANK",
+      "name": "Earth Bank",
+      "apiKey": "EB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "EARTH",
+      "enabled": true
+    },
+    {
+      "id": "MARS_BANK",
+      "name": "Mars Bank",
+      "apiKey": "MB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "MARS",
+      "enabled": true
+    }
+  ],
+  "planetarySystems": [
+    {
+      "id": "MILKY_WAY",
+      "name": "Milky Way",
+      "location": "Galactic Center",
+      "currency": "GALACTIC_CREDITS",
+      "enabled": true
+    },
+    {
+      "id": "EARTH",
+      "name": "Earth",
+      "location": "Sol System",
+      "currency": "EARTH_DOLLARS",
+      "enabled": true
+    },
+    {
+      "id": "MARS",
+      "name": "Mars",
+      "location": "Mars System",
+      "currency": "MARS_COINS",
+      "enabled": true
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card",
+      "description": "Pay with your credit card",
+      "enabled": true
+    },
+    {
+      "id": "BANK_TRANSFER",
+      "name": "Bank Transfer",
+      "description": "Pay with a bank transfer",
+      "enabled": true
+    },
+    {
+      "id": "CRYPTOCURRENCY",
+      "name": "Cryptocurrency",
+      "description": "Pay with cryptocurrency",
+      "enabled": true
+    }
+  ],
+  "security": {
+    "encryption": {
+      "algorithm": "AES-256",
+      "key": "secret-key-1234567890"
+    },
+    "hashing": {
+      "algorithm": "SHA-256",
+      "salt": "salt-1234567890"
+    },
+    "logging": {
+      "level": "DEBUG",
+      "output": "console"
+    }
+  },
+  "notifications": {
+    "email": {
+      "enabled": true,
+      "fromAddress": "no-reply@intergalacticpaymentgateway.com",
+      "template": "payment-notification.html"
+    },
+    "sms": {
+      "enabled": true,
+      "fromNumber": "+1234567890",
+      "template": "payment-notification.sms"
+    }
+  }
+}
