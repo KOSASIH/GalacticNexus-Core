@@ -72,3 +72,6 @@ Contributions are welcome! Please submit a pull request with your changes.
 
 Galactic Nexus is licensed under the Apache 2.0 License.
 
+## Disclaimer
+
+This project is for demonstration purposes only and should not be used in production without proper testing and validation.
