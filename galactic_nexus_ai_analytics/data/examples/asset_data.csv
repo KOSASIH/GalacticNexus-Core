@@ -1,0 +1,6 @@
+asset_id,asset_name,asset_type,price,quantity
+1,Apple Stocks,EQUITY,150.25,100
+2,Google Bonds,DEBT,100.50,500
+3,Real Estate Fund,REAL_ESTATE,200.00,200
+4,Gold ETF,COMMODITY,180.00,50
+5,Crypto Token,CRYPTOCURRENCY,0.50,1000
