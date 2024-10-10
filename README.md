@@ -190,7 +190,7 @@ GalacticNexus-Core is built on the shoulders of giants, leveraging the contribut
 
 ## Contact
 
-For more information, please contact us at info@galacticnexus.io.
+For more information, please contact us at info@galacticnexus.com.
 
 ## GalacticNexus-Core
 
