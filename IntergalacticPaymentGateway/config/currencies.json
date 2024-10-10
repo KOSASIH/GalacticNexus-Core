@@ -1,0 +1,62 @@
+[
+  {
+    "id": "GALACTIC_CREDITS",
+    "name": "Galactic Credits",
+    "symbol": "GC",
+    "exchangeRate": 1.0,
+    "decimalPlaces": 2,
+    "enabled": true,
+    "description": "The official currency of the Galactic Empire",
+    "icon": "https://example.com/gc-icon.png",
+    "countries": ["MILKY_WAY", "ANDROMEDA", "TRIANGULUM"],
+    "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+  },
+  {
+    "id": "EARTH_DOLLARS",
+    "name": "Earth Dollars",
+    "symbol": "ED",
+    "exchangeRate": 0.8,
+    "decimalPlaces": 2,
+    "enabled": true,
+    "description": "The official currency of Earth",
+    "icon": "https://example.com/ed-icon.png",
+    "countries": ["EARTH"],
+    "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+  },
+  {
+    "id": "MARS_COINS",
+    "name": "Mars Coins",
+    "symbol": "MC",
+    "exchangeRate": 1.2,
+    "decimalPlaces": 2,
+    "enabled": true,
+    "description": "The official currency of Mars",
+    "icon": "https://example.com/mc-icon.png",
+    "countries": ["MARS"],
+    "paymentMethods": ["CREDIT_CARD", "CRYPTOCURRENCY"]
+  },
+  {
+    "id": "NEPTUNE_NUGGETS",
+    "name": "Neptune Nuggets",
+    "symbol": "NN",
+    "exchangeRate": 0.5,
+    "decimalPlaces": 2,
+    "enabled": false,
+    "description": "The official currency of Neptune",
+    "icon": "https://example.com/nn-icon.png",
+    "countries": ["NEPTUNE"],
+    "paymentMethods": ["BANK_TRANSFER"]
+  },
+  {
+    "id": "PLUTO_POINTS",
+    "name": "Pluto Points",
+    "symbol": "PP",
+    "exchangeRate": 0.2,
+    "decimalPlaces": 2,
+    "enabled": false,
+    "description": "The official currency of Pluto",
+    "icon": "https://example.com/pp-icon.png",
+    "countries": ["PLUTO"],
+    "paymentMethods": ["CRYPTOCURRENCY"]
+  }
+]
