@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Nexus AI Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Galactic Nexus AI Analytics</h1>
+    <form id="train-ai-model-form">
+        <label for="asset-data">Asset Data:</label>
+        <input type="file" id="asset-data" name="assetData">
+        <br>
+        <label for="market-data">Market Data:</label>
+        <input type="file" id="market-data" name="marketData">
+        <br>
+        <button type="submit">Train AI Model</button>
+    </form>
+    <div id="ai-insights"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script>
+        const form = document.getElementById('train-ai-model-form');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const assetData = document.getElementById('asset-data').files[0];
+            const marketData = document.getElementById('market-data').files[0];
+
+            try {
+                const response = await axios.post('/train-ai-model', { assetData, marketData });
+                console.log(response);
+            } catch (error) {
+                console.error(error);
+            }
+        });
+
+        async function getAIInsights() {
+            try {
+                const response = await axios.get('/get-ai-insights');
+                const insights = response.data.insights;
+                document.getElementById('ai-insights').innerHTML = `AI Insights: ${insights}`;
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        getAIInsights();
+    </script>
+</body>
+</html>
