@@ -1,0 +1,24 @@
+{
+  "compliance_platforms": {
+    "chainalysis": {
+      "api_key": "CHAINALYSIS_API_KEY",
+      "api_secret": "CHAINALYSIS_API_SECRET"
+    },
+    "elliptic": {
+      "api_key": "ELLiptic_API_KEY",
+      "api_secret": "ELLiptic_API_SECRET"
+    }
+  },
+  "aml_kyc": {
+    "aml_threshold": 1000,
+    "kyc_threshold": 500
+  },
+  "regulatory_frameworks": {
+    "gdpr": {
+      "enabled": true
+    },
+    "ccpa": {
+      "enabled": true
+    }
+  }
+}
