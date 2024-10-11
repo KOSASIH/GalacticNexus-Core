@@ -1,0 +1,16 @@
+{
+  "neural_interface": {
+    "model_path": "neural_interface/neural_interface_model.h5",
+    "input_shape": [100, 100, 1],
+    "output_shape": [10]
+  },
+  "quantum_computing": {
+    "backend": "qasm_simulator",
+    "shots": 1024
+  },
+  "holographic_display": {
+    "model_path": "holographic_display/holographic_display_model.h5",
+    "input_shape": [100, 100, 1],
+    "output_shape": [10]
+  }
+}
