@@ -1,0 +1,21 @@
+{
+  "neural_interface": {
+    "model_path": "neural_interface/neural_interface_model.h5",
+    "input_shape": [100, 100, 1],
+    "output_shape": [10]
+  },
+  "quantum_key_distribution": {
+    "backend": "qasm_simulator",
+    "shots": 1024
+  },
+  "neuroquantum_bridge": {
+    "model_path": "neuroquantum_bridge/neuroquantum_bridge_model.h5",
+    "input_shape": [100, 100, 1],
+    "output_shape": [10]
+  },
+  "telepathy": {
+    "model_path": "telepathy/telepathy_model.h5",
+    "input_shape": [100, 100, 1],
+    "output_shape": [10]
+  }
+}
