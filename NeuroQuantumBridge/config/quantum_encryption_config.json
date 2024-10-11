@@ -1,0 +1,26 @@
+{
+  "quantum_key_distribution": {
+    "protocol": "BB84",
+    "key_size": 256,
+    "error_correction": {
+      "algorithm": "surface_code",
+      "error_threshold": 0.01
+    },
+    "quantum_channel": {
+      "type": "optical_fiber",
+      "distance": 100,
+      "attenuation": 0.5
+    }
+  },
+  "encryption_algorithm": {
+    "algorithm": "AES",
+    "key_size": 256,
+    "block_size": 128,
+    "mode": "GCM"
+  },
+  "quantum_computing": {
+    "backend": "ibmq_qasm_simulator",
+    "shots": 1024,
+    "optimization_level": 3
+  }
+}
