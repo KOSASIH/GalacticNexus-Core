@@ -1,0 +1,5 @@
+numpy==1.20.0
+scikit-learn==1.0.2
+qiskit==0.34.0
+json==2.0.9
+unittest==1.14.0
