@@ -32,7 +32,7 @@
       "decimalPlaces": 2,
       "enabled": true,
       "description": "The official currency of Mars",
-      "icon": "https://example.com/mc-icon.png",
+      "icon": "https://www.canva.com/design/DAGTXW9SY9E/QpQQapyIaVEfJQKSUhjBEA/view?utm_content=DAGTXW9SY9E&utm_campaign=designshare&utm_medium=link&utm_source=editor",
       "countries": ["MARS"],
       "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     },
