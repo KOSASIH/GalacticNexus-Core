@@ -14,6 +14,68 @@
       "logo": "https://example.com/isa_logo.png",
       "website": "https://isa.galaxy"
     },
-    ...
+    {
+      "id": "GALACTIC_RESEARCH_INSTITUTE",
+      "name": "Galactic Research Institute",
+      "description": "A research institution dedicated to advancing our understanding of the galaxy.",
+      "logo": "https://example.com/gri_logo.png",
+      "website": "https://gri.galaxy"
+    },
+    {
+      "id": "GALACTIC_ENVIRONMENTAL_PROTECTION_AGENCY",
+      "name": "Galactic Environmental Protection Agency",
+      "description": "A government agency responsible for protecting the environment and preserving natural resources throughout the galaxy.",
+      "logo": "https://example.com/gepa_logo.png",
+      "website": "https://gepa.galaxy"
+    },
+    {
+      "id": "GALACTIC_HEALTH_ORGANIZATION",
+      "name": "Galactic Health Organization",
+      "description": "A international health organization that works to promote health and well-being throughout the galaxy.",
+      "logo": "https://example.com/gho_logo.png",
+      "website": "https://gho.galaxy"
+    },
+    {
+      "id": "GALACTIC_EDUCATION_INITIATIVE",
+      "name": "Galactic Education Initiative",
+      "description": "A non-profit organization that works to improve education and promote literacy throughout the galaxy.",
+      "logo": "https://example.com/gei_logo.png",
+      "website": "https://gei.galaxy"
+    },
+    {
+      "id": "GALACTIC_DISASTER_RELIEF_AGENCY",
+      "name": "Galactic Disaster Relief Agency",
+      "description": "A humanitarian organization that provides disaster relief and support to affected communities throughout the galaxy.",
+      "logo": "https://example.com/gdra_logo.png",
+      "website": "https://gdra.galaxy"
+    },
+    {
+      "id": "GALACTIC_SPACE_STATION_AUTHORITY",
+      "name": "Galactic Space Station Authority",
+      "description": "A government agency responsible for managing and regulating space stations throughout the galaxy.",
+      "logo": "https://example.com/gssa_logo.png",
+      "website": "https://gssa.galaxy"
+    },
+    {
+      "id": "GALACTIC_ASTROPHYSICS_INSTITUTE",
+      "name": "Galactic Astrophysics Institute",
+      "description": "A research institution dedicated to advancing our understanding of the universe and the laws of physics.",
+      "logo": "https://example.com/gai_logo.png",
+      "website": "https://gai.galaxy"
+    },
+    {
+      "id": "GALACTIC_PLANETARY_CONSERVATION_ORGANIZATION",
+      "name": "Galactic Planetary Conservation Organization",
+      "description": "A non-profit organization that works to protect and preserve planetary ecosystems throughout the galaxy.",
+      "logo": "https://example.com/gpco_logo.png",
+      "website": "https://gpco.galaxy"
+    },
+    {
+      "id": "GALACTIC_INTERSTELLAR_TRADE_COMMISSION",
+      "name": "Galactic Interstellar Trade Commission",
+      "description": "A government agency responsible for regulating and promoting interstellar trade throughout the galaxy.",
+      "logo": "https://example.com/gitc_logo.png",
+      "website": "https://gitc.galaxy"
+    }
   ]
-}
+    }
