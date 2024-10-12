@@ -9,7 +9,11 @@
       "symbol": "GC",
       "exchangeRate": 1.0,
       "decimalPlaces": 2,
-      "enabled": true
+      "enabled": true,
+      "description": "The official currency of the Galactic Empire",
+      "icon": "https://example.com/gc-icon.png",
+      "countries": ["MILKY_WAY", "ANDROMEDA", "TRIANGULUM"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     },
     {
       "id": "EARTH_DOLLARS",
@@ -17,7 +21,11 @@
       "symbol": "ED",
       "exchangeRate": 0.8,
       "decimalPlaces": 2,
-      "enabled": true
+      "enabled": true,
+      "description": "The official currency of Earth",
+      "icon": "https://example.com/ed-icon.png",
+      "countries": ["EARTH"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
     },
     {
       "id": "MARS_COINS",
@@ -25,7 +33,83 @@
       "symbol": "MC",
       "exchangeRate": 1.2,
       "decimalPlaces": 2,
-      "enabled": true
+      "enabled": true,
+      "description": "The official currency of Mars",
+      "icon": "https://example.com/mc-icon.png",
+      "countries": ["MARS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "JUPITER_TOKENS",
+      "name": "Jupiter Tokens",
+      "symbol": "JT",
+      "exchangeRate": 0.1,
+      "decimalPlaces": 2,
+      "enabled": true,
+      "description": "The official currency of Jupiter",
+      "icon": "https://example.com/jt-icon.png",
+      "countries": ["JUPITER"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "SATURN_COINS",
+      "name": "Saturn Coins",
+      "symbol": "SC",
+      "exchangeRate": 0.05,
+      "decimalPlaces": 2,
+      "enabled": true,
+      "description": "The official currency of Saturn",
+      "icon": "https://example.com/sc-icon.png",
+      "countries": ["SATURN"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "URANUS_TOKENS",
+      "name": "Uranus Tokens",
+      "symbol": "UT",
+      "exchangeRate": 0.01,
+      "decimalPlaces": 2,
+      "enabled": true,
+      "description": "The official currency of Uranus",
+      "icon": "https://example.com/ut-icon.png",
+      "countries": ["URANUS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "NEPTUNE_COINS",
+      "name": "Neptune Coins",
+      "symbol": "NC",
+      "exchangeRate": 0.005,
+      "decimalPlaces": 2,
+      "enabled": true,
+      "description": "The official currency of Neptune",
+      "icon": "https://example.com/nc-icon.png",
+      "countries": ["NEPTUNE"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "PLUTO_TOKENS",
+      "name": "Pluto Tokens",
+      "symbol": "PT",
+      "exchangeRate": 0.001,
+      "decimalPlaces": 2,
+      "enabled": true,
+      "description": "The official currency of Pluto",
+      "icon": "https://example.com/pt-icon.png",
+      "countries": ["PLUTO"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "KUIPER_BELT_COINS",
+      "name": "Kuiper Belt Coins",
+      "symbol": "KBC",
+      "exchangeRate": 0.0005,
+      "decimalPlaces": 2,
+      "enabled": true,
+      "description": "The official currency of the Kuiper Belt",
+      "icon": "https:// example.com/kbc-icon.png",
+      "countries": ["KUIPER_BELT"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     }
   ],
   "financialInstitutions": [
@@ -35,7 +119,11 @@
       "apiKey": "GB-1234567890",
       "apiSecret": "secret-key-1234567890",
       "planetarySystem": "MILKY_WAY",
-      "enabled": true
+      "enabled": true,
+      "description": "The official bank of the Galactic Empire",
+      "icon": "https://example.com/gb-icon.png",
+      "currencies": ["GALACTIC_CREDITS", "EARTH_DOLLARS", "MARS_COINS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     },
     {
       "id": "EARTH_BANK",
@@ -43,7 +131,11 @@
       "apiKey": "EB-1234567890",
       "apiSecret": "secret-key-1234567890",
       "planetarySystem": "EARTH",
-      "enabled": true
+      "enabled": true,
+      "description": "The official bank of Earth",
+      "icon": "https://example.com/eb-icon.png",
+      "currencies": ["EARTH_DOLLARS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
     },
     {
       "id": "MARS_BANK",
@@ -51,7 +143,83 @@
       "apiKey": "MB-1234567890",
       "apiSecret": "secret-key-1234567890",
       "planetarySystem": "MARS",
-      "enabled": true
+      "enabled": true,
+      "description": "The official bank of Mars",
+      "icon": "https://example.com/mb-icon.png",
+      "currencies": ["MARS_COINS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "JUPITER_BANK",
+      "name": "Jupiter Bank",
+      "apiKey": "JB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "JUPITER",
+      "enabled": true,
+      "description": "The official bank of Jupiter",
+      "icon": "https://example.com/jb-icon.png",
+      "currencies": ["JUPITER_TOKENS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "SATURN_BANK",
+      "name": "Saturn Bank",
+      "apiKey": "SB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "SATURN",
+      "enabled": true,
+      "description": "The official bank of Saturn",
+      "icon": "https://example.com/sb-icon.png",
+      "currencies": ["SATURN_COINS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "URANUS_BANK",
+      "name": "Uranus Bank",
+      "apiKey": "UB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "URANUS",
+      "enabled": true,
+      "description": "The official bank of Uranus",
+      "icon": "https://example.com/ub-icon.png",
+      "currencies": ["URANUS_TOKENS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "NEPTUNE_BANK",
+      "name": "Neptune Bank",
+      "apiKey": "NB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "NEPTUNE",
+      "enabled": true,
+      "description": "The official bank of Neptune",
+      "icon": "https://example.com/nb-icon.png",
+      "currencies": ["NEPTUNE_COINS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "PLUTO_BANK",
+      "name": "Pluto Bank",
+      "apiKey": "PB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "PLUTO",
+      "enabled": true,
+      "description": "The official bank of Pluto",
+      "icon": "https://example.com/pb-icon.png",
+      "currencies": ["PLUTO_TOKENS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+ {
+      "id": "KUIPER_BELT_BANK",
+      "name": "Kuiper Belt Bank",
+      "apiKey": "KBB-1234567890",
+      "apiSecret": "secret-key-1234567890",
+      "planetarySystem": "KUIPER_BELT",
+      "enabled": true,
+      "description": "The official bank of the Kuiper Belt",
+      "icon": "https://example.com/kbb-icon.png",
+      "currencies": ["KUIPER_BELT_COINS"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     }
   ],
   "planetarySystems": [
@@ -60,21 +228,99 @@
       "name": "Milky Way",
       "location": "Galactic Center",
       "currency": "GALACTIC_CREDITS",
-      "enabled": true
+      "enabled": true,
+      "description": "The galactic center of the Milky Way",
+      "icon": "https://example.com/mw-icon.png",
+      "financialInstitutions": ["GALACTIC_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     },
     {
       "id": "EARTH",
       "name": "Earth",
       "location": "Sol System",
       "currency": "EARTH_DOLLARS",
-      "enabled": true
+      "enabled": true,
+      "description": "The third planet from the Sun",
+      "icon": "https://example.com/e-icon.png",
+      "financialInstitutions": ["EARTH_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
     },
     {
       "id": "MARS",
       "name": "Mars",
       "location": "Mars System",
       "currency": "MARS_COINS",
-      "enabled": true
+      "enabled": true,
+      "description": "The red planet",
+      "icon": "https://example.com/m-icon.png",
+      "financialInstitutions": ["MARS_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "JUPITER",
+      "name": "Jupiter",
+      "location": "Jupiter System",
+      "currency": "JUPITER_TOKENS",
+      "enabled": true,
+      "description": "The gas giant",
+      "icon": "https://example.com/j-icon.png",
+      "financialInstitutions": ["JUPITER_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "SATURN",
+      "name": "Saturn",
+      "location": "Saturn System",
+      "currency": "SATURN_COINS",
+      "enabled": true,
+      "description": "The ringed planet",
+      "icon": "https://example.com/s-icon.png",
+      "financialInstitutions": ["SATURN_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "URANUS",
+      "name": "Uranus",
+      "location": "Uranus System",
+      "currency": "URANUS_TOKENS",
+      "enabled": true,
+      "description": "The ice giant",
+      "icon": "https://example.com/u-icon.png",
+      "financialInstitutions": ["URANUS_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "NEPTUNE",
+      "name": "Neptune",
+      "location": "Neptune System",
+      "currency": "NEPTUNE_COINS",
+      "enabled": true,
+      "description": "The farthest planet",
+      "icon": "https://example.com/n-icon.png",
+      "financialInstitutions": ["NEPTUNE_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
+    },
+    {
+      "id": "PLUTO",
+      "name": "Pluto",
+      "location": "Pluto System",
+      "currency": "PLUTO_TOKENS",
+      "enabled": true,
+      "description": "The dwarf planet",
+      "icon": "https://example.com/p-icon.png",
+      "financialInstitutions": ["PLUTO_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
+    },
+    {
+      "id": "KUIPER_BELT",
+      "name": "Kuiper Belt",
+      "location": "Kuiper Belt System",
+      "currency": "KUIPER_BELT_COINS",
+      "enabled": true,
+      "description": "The region of icy bodies",
+      "icon": "https://example.com/kb-icon.png",
+      "financial Institutions": ["KUIPER_BELT_BANK"],
+      "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     }
   ],
   "paymentMethods": [
@@ -82,19 +328,28 @@
       "id": "CREDIT_CARD",
       "name": "Credit Card",
       "description": "Pay with your credit card",
-      "enabled": true
+      "enabled": true,
+      "icon": "https://example.com/cc-icon.png",
+      "currencies": ["GALACTIC_CREDITS", "EARTH_DOLLARS", "MARS_COINS", "JUPITER_TOKENS", "SATURN_COINS", "URANUS_TOKENS", "NEPTUNE_COINS", "PLUTO_TOKENS", "KUIPER_BELT_COINS"],
+      "financialInstitutions": ["GALACTIC_BANK", "EARTH_BANK", "MARS_BANK", "JUPITER_BANK", "SATURN_BANK", "URANUS_BANK", "NEPTUNE_BANK", "PLUTO_BANK", "KUIPER_BELT_BANK"]
     },
     {
       "id": "BANK_TRANSFER",
       "name": "Bank Transfer",
       "description": "Pay with a bank transfer",
-      "enabled": true
+      "enabled": true,
+      "icon": "https://example.com/bt-icon.png",
+      "currencies": ["GALACTIC_CREDITS", "EARTH_DOLLARS", "MARS_COINS", "JUPITER_TOKENS", "SATURN_COINS", "URANUS_TOKENS", "NEPTUNE_COINS", "PLUTO_TOKENS", "KUIPER_BELT_COINS"],
+      "financialInstitutions": ["GALACTIC_BANK", "EARTH_BANK", "MARS_BANK", "JUPITER_BANK", "SATURN_BANK", "URANUS_BANK", "NEPTUNE_BANK", "PLUTO_BANK", "KUIPER_BELT_BANK"]
     },
     {
       "id": "CRYPTOCURRENCY",
       "name": "Cryptocurrency",
       "description": "Pay with cryptocurrency",
-      "enabled": true
+      "enabled": true,
+      "icon": "https://example.com/crypto-icon.png",
+      "currencies": ["GALACTIC_CREDITS", "MARS_COINS", "SATURN_COINS", "NEPTUNE_COINS", "KUIPER_BELT_COINS"],
+      "financialInstitutions": ["GALACTIC_BANK", "MARS_BANK", "SATURN_BANK", "NEPTUNE_BANK", "KUIPER_BELT_BANK"]
     }
   ],
   "security": {
@@ -123,4 +378,4 @@
       "template": "payment-notification.sms"
     }
   }
-}
+        }
