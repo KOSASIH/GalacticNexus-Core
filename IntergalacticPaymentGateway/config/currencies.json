@@ -44,7 +44,7 @@
       "decimalPlaces": 2,
       "enabled": true,
       "description": "The official currency of Jupiter",
-      "icon": "https://example.com/jt-icon.png",
+      "icon": "https://www.canva.com/design/DAGTXoVnsBg/eeWR9YZNW7JQVeJ8UaVCmQ/view?utm_content=DAGTXoVnsBg&utm_campaign=designshare&utm_medium=link&utm_source=editor",
       "countries": ["JUPITER"],
       "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER"]
     },
