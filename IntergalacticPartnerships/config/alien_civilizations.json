@@ -14,6 +14,61 @@
       "logo": "https://example.com/krakkorians_logo.png",
       "website": "https://krakkorians.galaxy"
     },
-    ...
+    {
+      "id": "THRACKIANS",
+      "name": "Thrackians",
+      "description": "A highly advanced, insectoid civilization from the outer rim of the galaxy.",
+      "logo": "https://example.com/thrackians_logo.png",
+      "website": "https://thrackians.galaxy"
+    },
+    {
+      "id": "XANHEI",
+      "name": "Xanhei",
+      "description": "A highly advanced, aquatic civilization from the inner rim of the galaxy.",
+      "logo": "https://example.com/xanhei_logo.png",
+      "website": "https://xanhei.galaxy"
+    },
+    {
+      "id": "N'TARIANS",
+      "name": "N'Tarians",
+      "description": "A highly advanced, telepathic civilization from the Andromeda galaxy.",
+      "logo": "https://example.com/ntarians_logo.png",
+      "website": "https://ntarians.galaxy"
+    },
+    {
+      "id": "G'ZORVIANS",
+      "name": "G'Zorvians",
+      "description": "A highly advanced, reptilian civilization from the outer rim of the galaxy.",
+      "logo": "https://example.com/gzorvians_logo.png",
+      "website": "https://gzorvians.galaxy"
+    },
+    {
+      "id": "K'RHYN",
+      "name": "K'Rhyyn",
+      "description": "A highly advanced, crystalline civilization from the inner rim of the galaxy.",
+      "logo": "https://example.com/krhyyn_logo.png",
+      "website": "https://krhyyn.galaxy"
+    },
+    {
+      "id": "Z'LORVIANS",
+      "name": "Z'Lorvians",
+      "description": "A highly advanced, energy-based civilization from the Andromeda galaxy.",
+      "logo": "https://example.com/zlorvians_logo.png",
+      "website": "https://zlorvians.galaxy"
+    },
+    {
+      "id": "T'KON",
+      "name": "T'Kon",
+      "description": "A highly advanced, robotic civilization from the outer rim of the galaxy.",
+      "logo": "https://example.com/tkon_logo.png",
+      "website": "https://tkon.galaxy"
+    },
+    {
+      "id": "R'NHA",
+      "name": "R'Nha",
+      "description": "A highly advanced, fungal civilization from the inner rim of the galaxy.",
+      "logo": "https://example.com/rnha_logo.png",
+      "website": "https://rnha.galaxy"
+    }
   ]
-}
+    }
