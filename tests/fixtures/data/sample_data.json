@@ -1,6 +1,0 @@
-{
-    "users": [
-        {"username": "test_user", "password": "test_password"},
-        {"username": "invalid_user", "password": "invalid_password"}
-    ]
-}
