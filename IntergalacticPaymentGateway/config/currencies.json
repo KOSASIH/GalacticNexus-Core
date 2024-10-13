@@ -56,7 +56,7 @@
       "decimalPlaces": 2,
       "enabled": true,
       "description": "The official currency of Saturn",
-      "icon": "https://example.com/sc-icon.png",
+      "icon": "https://www.canva.com/design/DAGTc1L6-YA/r3dnue0hh3rchH8hCsQPaQ/view?utm_content=DAGTc1L6-YA&utm_campaign=designshare&utm_medium=link&utm_source=editor",
       "countries": ["SATURN"],
       "paymentMethods": ["CREDIT_CARD", "BANK_TRANSFER", "CRYPTOCURRENCY"]
     },
