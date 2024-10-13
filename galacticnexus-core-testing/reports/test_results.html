@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Results Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Results Report</h1>
+    <table>
+        <tr>
+            <th>Test Suite</th>
+            <th>Tests Run</th>
+            <th>Tests Passed</th>
+            <th>Tests Failed</th>
+            <th>Tests Skipped</th>
+        </tr>
+        {{#test_suites}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{tests_run}}</td>
+            <td>{{tests_passed}}</td>
+            <td>{{tests_failed}}</td>
+            <td>{{tests_skipped}}</td>
+        </tr>
+        {{/test_suites}}
+    </table>
+    <h2>Detailed Test Results</h2>
+    <ul>
+        {{#test_cases}}
+        <li>
+            <span style="color: {{#passed}}green{{/passed}}{{^passed}}red{{/passed}}">{{name}} ({{duration}}s)</span>
+            {{#error}}
+            <br><span style="color: red">{{error}}</span>
+            {{/error}}
+        </li>
+        {{/test_cases}}
+    </ul>
+</body>
+      </html>
